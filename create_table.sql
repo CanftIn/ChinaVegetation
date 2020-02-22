@@ -1,3 +1,5 @@
+USE sampdb;
+
 -- Create table about Pets
 CREATE TABLE pet (
     id INTEGER PRIMARY KEY,
