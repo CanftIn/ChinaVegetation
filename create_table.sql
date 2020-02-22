@@ -1,5 +1,15 @@
 USE sampdb;
-
+-- Create a table in the database
+CREATE TABLE person (
+       id INTEGER PRIMARY KEY,
+       first_name TEXT,
+       last_name TEXT,
+       age INTEGER
+       /* Extra Credit */
+       -- male BOOLEAN,
+       -- height_inches FLOAT,
+       -- Birthday DATE
+       );
 -- Create table about Pets
 CREATE TABLE pet (
     id INTEGER PRIMARY KEY,
